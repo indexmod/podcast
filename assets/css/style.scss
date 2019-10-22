@@ -22,13 +22,8 @@ p {
 	font-family: 'Verdana';
 	font-size: 20px;
 	line-height: 1.5em;
-	font-weight: 900;
+	font-weight: 100;
 	color: black;
-}
-
-.rate {
-	font-weight: 800;
-	color: green;
 }
 
 h1 {
@@ -38,6 +33,7 @@ h1 {
 	line-height: 1.3em;
 	color: black;
 }
+
 h2, h3, h4, h5, h6 {
 	font-family: 'Verdana';
 	font-size: 25px;
@@ -49,19 +45,19 @@ h2, h3, h4, h5, h6 {
 
 .author {
 	font-family: 'Verdana';
-	font-weight: 800;
+	font-weight: 100;
 	color: green;
 }
 
 .translator {
 	font-family: 'Verdana';
-	font-weight: 800;
+	font-weight: 100;
 	color: green;
 }
 
 .reader {
 	font-family: 'Verdana';
-	font-weight: 800;
+	font-weight: 100;
 	color: green;
 }
 
@@ -69,20 +65,20 @@ h2, h3, h4, h5, h6 {
 a:link {
 	color: #4e80d8;
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: 100;
 }
 a:visited {
 	color: #4e80d8;
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: 100;
 }
 a:hover {
 	color: green;
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: 100;
 }
 a:active {
 	color: #4e80d8;
 	text-decoration: none;
-	font-weight: 900;
+	font-weight: 100;
 }

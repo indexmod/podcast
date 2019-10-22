@@ -1,40 +1,13 @@
 ---
 exclude: true
-permalink: africa
+permalink: shkola-i-avli-ai-as-odnim-iz-glavnykh
 title: Africa
-author: Boss A.
-article: Full article name
-translator: Зейнал Гасанбеков
+author: Разумная Е. В.
+article: Использование современных педагогических технологий на уроках биологии
 reader: Зейнал Гасанбеков
 layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Unknown author
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: АФРИКА
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
 ---
 
-The School of Biological Science and Technology in the College of Science and Technology is a new school dedicated to the learning of theory and applications of natural life forms and life phenomena. It consists of two science courses (Course in Biosystems and Course in Aquatic Biology and Environmental Science), which aim to unlock the secrets of life, and one engineering course (Bioengineering Course), which attempts to create bio-based products and technology that improve human life. At first, all of this school’s students study the fundamental knowledge and technology of both science and engineering. Then, they learn about highly specialized knowledge and technology in detail, after choosing one of the three courses. The curriculum of this school emphasizes professional education based on extensive experiments and exercises for cultivating independent, creative, and collaborative minds. In addition, through the teaching of academic presentation, the school is expected to produce creative scientists, engineers, and educators who can pursue the essence of life and apply it to the realization of an affluent human society. Course in Biosystems involves biological research carried out from various aspects, and provides a broad education in fundamental fields of biology ranging from molecules and cells to individual organisms and ecosystems. Course in Aquatic Biology and Environmental Science provides a broad education for applying knowledge of marine organisms, biological resources, and environmental science to the technology required by society. Course in Bioengineering produces engineers who have a wide knowledge of bioengineering and are highly skilled at solving problems.
+Школа, являясь одним из главных институтов общества, первой ощущает на себе все изменения, происходящие в нем. Социальный запрос школе, определенный современным обществом говорит о том, что необходимы люди с новым мышлением, умением самостоятельно ставить цели, находить пути их достижения. Развитие ребенка становится ключевым определением обучения. Изучение биологии в общеобразовательной школе направлено не только на усвоение определенной суммы знаний, но и на развитие личности ученика. Построить учебный процесс с учетом потребностей и способностей каждого ученика возможно только лишь с применением новых образовательных технологий. При использовании нетрадиционных технологий обучения, которые позволяют ученику непосредственно принимать участие в построении учебного процесса, осуществляется прочное и осознанное усвоение содержания учебных предметов, а также развитие у школьников логического мышления, творческой активности, речевых способностей, умения самостоятельно работать и интеллекта в целом. Именно это побудило меня к изучению современных педагогических технологий и использованию их в преподавании биологии.
+
+Разумная Е. В. Использование современных педагогических технологий на уроках биологии [Текст] // Теория и практика образования в современном мире: материалы Междунар. науч. конф. (г. Санкт-Петербург, февраль 2012 г.). — СПб.: Реноме, 2012. — С. 215-217. — URL https://moluch.ru/conf/ped/archive/21/1633/ (дата обращения: 22.10.2019).

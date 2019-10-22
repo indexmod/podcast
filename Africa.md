@@ -1,7 +1,6 @@
 ---
-exclude: true
 permalink: shkola-i-avli-ai-as-odnim-iz-glavnykh
-title: Africa
+title: Школа, являясь одним из главных институтов общества
 author: Разумная Е. В.
 article: Использование современных педагогических технологий на уроках биологии
 reader: Зейнал Гасанбеков

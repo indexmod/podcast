@@ -7,7 +7,7 @@
 body {
 	max-width: auto;
 	margin: auto;
-	padding: 20%;
+	padding: 10%;
 	background: white;
 }
 
@@ -19,7 +19,7 @@ body {
 	color: black;
 }
 p {
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Verdana';
 	font-size: 20px;
 	line-height: 1.5em;
 	font-weight: 900;
@@ -48,16 +48,19 @@ h2, h3, h4, h5, h6 {
 
 
 .author {
+	font-family: 'Verdana';
 	font-weight: 800;
 	color: green;
 }
 
 .translator {
+	font-family: 'Verdana';
 	font-weight: 800;
 	color: green;
 }
 
 .reader {
+	font-family: 'Verdana';
 	font-weight: 800;
 	color: green;
 }

@@ -1,8 +1,8 @@
 ---
+permalink: template
 title: Template
 author: Boss A.
 article: Full article name
-permalink: template
 layout: default
 exclude: true
 originlang: Rus. / Eng.

@@ -7,8 +7,12 @@
 {% include favicon.html %}
 </head>
 <body>
-<p> <div>class="author">{{page.author}}</div> <div>class="article">{{page.article}}</div></p>
+<p><span class="author">{{page.author}}</span> <span class="article">{{page.article}}</span></p>
 <h1>{{page.title}}</h1>
+<br>
+<br>
+<p>Перевод: <span class="translator">{{page.translator}}</span>, <span class="reader">{{page.reader}}</span></p>
+
 {% include topblock.html %}
 {% include top.html %}
 

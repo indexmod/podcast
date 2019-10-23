@@ -1,8 +1,13 @@
 ---
 
 title: Podcast
+name: Имя
 timezone: UTC
 description: by Indexmod
+url: https://indexmod.github.io/podcast/
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 
 show_sidebar: false
 show_downloads: false
@@ -15,16 +20,13 @@ theme: jekyll-theme-minimal
 include: ['.htaccess']
 
 use_github_wiki: false
-use_prose_io: true
 custom_head: false
 custom_sidebar: false
 custom_footer: false
 
-prose:
-  rooturl: ''
-  siteurl: ''
-  relativeLinks: 'https://prose.github.io/starter/links.jsonp'
-  media: '/images'
+
+media: '/images'
+rss: '/_site'
 
   ignore:
     - index.md
@@ -34,7 +36,6 @@ prose:
     - /assets
     - 404.md
     - README.md
-    - feed.xml
     - sitemap.xml
     - robots.txt
     - redirects.json

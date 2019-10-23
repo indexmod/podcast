@@ -4,7 +4,7 @@ layout: cover
 exclude: true
 ---
 
-# The articles
+# Эпизоды
 
 <ul>
 

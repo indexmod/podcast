@@ -15,6 +15,7 @@ git_branch: master
 theme: jekyll-theme-minimal
 
 include: ['.htaccess']
+exclude: ['style.scss']
 
 use_github_wiki: false
 custom_head: false
@@ -24,6 +25,7 @@ custom_footer: false
 
 media: '/images'
 rss: '/_site'
+
 
 feed_items: 10
 feed_update_period: daily

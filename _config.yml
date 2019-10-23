@@ -1,12 +1,10 @@
 ---
 
-
+title: Pod
 timezone: UTC
 description: by Indexmod
 url: https://indexmod.github.io/podcast/
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
+
 
 show_sidebar: false
 show_downloads: false
@@ -26,6 +24,9 @@ custom_footer: false
 
 media: '/images'
 rss: '/_site'
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 
   ignore:
     - index.md

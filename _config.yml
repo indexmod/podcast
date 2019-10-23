@@ -5,7 +5,7 @@ timezone: UTC
 description: by Indexmod
 url: https://indexmod.github.io
 
-
+show_rss: true
 show_sidebar: false
 show_downloads: false
 show_title: false
@@ -15,7 +15,7 @@ git_branch: master
 theme: jekyll-theme-minimal
 
 include: ['.htaccess']
-exclude: ['style.scss']
+exclude: ['/assets/css/style.scss']
 
 use_github_wiki: false
 custom_head: false
@@ -24,7 +24,7 @@ custom_footer: false
 
 
 media: '/images'
-rss: '/_site'
+
 
 
 feed_items: 10

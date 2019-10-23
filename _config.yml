@@ -24,18 +24,9 @@ custom_footer: false
 
 media: '/images'
 rss: '/_site'
+
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /assets
-    - 404.md
-    - README.md
-    - sitemap.xml
-    - robots.txt
-    - redirects.json
+  

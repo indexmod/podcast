@@ -25,6 +25,15 @@ custom_footer: false
 
 media: '/images'
 
+# Podcast Feed Settings
+
+email:          indexmod@ya.ru
+description:    "Test podcast engine"
+subtitle:       "Listen to me"
+lang:           RU
+author:         Andrei Dei
+copyright:      "&#x2117; &amp; &#xA9; 2015"
+
 
 
 feed_items: 10

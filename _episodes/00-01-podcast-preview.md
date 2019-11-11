@@ -2,13 +2,13 @@
 layout: 		episode
 date: 			2019-02-06 00:00:00
 
-title: 			"Preview: So what's this all about then?"
+title: 			"Раловры"
 subtitle: 		"This is the Department of Bad Ideas. Except it isn't. Not yet, anyway."
 summary: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways. In this short preview episode, we explain what you can expect when the Department opens its doors later this year."
 
-description: 	"The Department of Bad Ideas is a podcast about policy, disconnected from reality. 
+description: 	"The Department of Bad Ideas is a podcast about policy, disconnected from reality.
 
-In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways. 
+In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways.
 
 In this short preview episode, we explain what you can expect when the Department opens its doors later this year
 
@@ -35,9 +35,9 @@ explicit: 		"no" # other option is no
 block: 			"no" # means is shown in iTunes
 ---
 
-The Department of Bad Ideas is a podcast about policy, disconnected from reality. 
+The Department of Bad Ideas is a podcast about policy, disconnected from reality.
 
-In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways. 
+In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways.
 
 In this short preview episode, we explain what you can expect when the Department opens its doors later this year
 

@@ -54,7 +54,8 @@ google-analytics: "UA-27553664-7" # GA ID code
 permalink: pretty
 markdown: kramdown
 future: false
-
+sass:
+    sass_dir: _sass
     sourcemap: true
 
 collections:

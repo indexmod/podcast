@@ -39,7 +39,7 @@ social-media-image: "/site/social-media.png"
 
 touch: "/assets/images/site/touch.png"
 pinned: "/assets/images/site/pinned.png"
-pinned-colour: "#ffccfc"
+pinned-colour: "grey"
 logo-favicon-small: "/assets/images/site/favicon-16x16.png"
 logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
 logo-favicon-large: "/assets/images/site/favicon-96x96.png"
@@ -52,9 +52,10 @@ google-analytics: "UA-27553664-7" # GA ID code
 # Plugins and build settings
 
 permalink: pretty
+markdown: kramdown
 future: false
 sass:
-
+    sass_dir: _sass
     sourcemap: true
 
 collections:

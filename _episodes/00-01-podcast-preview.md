@@ -8,13 +8,7 @@ summary: 		"Сводка."
 
 description: 	Описание
 
-- 00:00 — Opening theme music
-
-- 00:40 — Hello there
-
-- 03:33 — Become a contestant
-
-- 04:09 — Closing music"
+- 00:00 — Тайминг
 
 season:			# Enter a number if applicable
 episode:		# Enter a number if applicable
@@ -31,16 +25,6 @@ explicit: 		"no" # other option is no
 block: 			"no" # means is shown in iTunes
 ---
 
-The Department of Bad Ideas is a podcast about policy, disconnected from reality.
+Текст
 
-In each episode, two guests engage in a battle of policy wits as we ask them to solve real problems in the most unsaleable, impractical and impossible ways.
-
-In this short preview episode, we explain what you can expect when the Department opens its doors later this year
-
-- 00:00 — Opening theme music
-
-- 00:40 — Hello there
-
-- 03:33 — Become a contestant
-
-- 04:09 — Closing music
+- 00:00 — Тайминг 2

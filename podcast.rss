@@ -1,68 +1,75 @@
-{\rtf1\ansi\ansicpg1251\cocoartf2509
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sl280\partightenfactor0
+---
 
-\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 ---\
-\
----\
-<?xml version="1.0" encoding="UTF-8"?>\
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="\{\{ site.lang \}\}">\
-	<channel>\
-		<atom:link href="\{\{ site.url \}\}/podcast.rss" rel="self" type="application/rss+xml" />\
-		<title>\{\{ site.title \}\}</title>\
-		<description>\{\{ site.description | xml_escape \}\}</description>\
-		<link>\{\{ site.url \}\}</link>\
-		<language>\{\{ site.lang \}\}</language>\
-		<managingEditor>\{\{ site.email \}\} (\{\{ site.author \}\})</managingEditor>\
-		<webMaster>\{\{ site.email \}\} (\{\{ site.author \}\})</webMaster>\
-		<copyright>2014-\{\{ site.time | "%Y" \}\} \{\{ site.title \}\}</copyright>\
-		<pubDate>\{\{ site.time | date_to_rfc822 \}\}</pubDate>\
-		<lastBuildDate>\{\{ site.time | date_to_rfc822 \}\}</lastBuildDate>\
-		<image>\
-			<link>\{\{ site.url \}\}</link>\
-			<url>\{\{ site.url \}\}/images/itunes.png</url>\
-			<title>\{\{ site.title \}\}</title>\
-		</image>\
-		<itunes:subtitle>\{\{ site.description | xml_escape \}\}</itunes:subtitle>\
-		<itunes:author>\{\{ site.author \}\}</itunes:author>\
-		<itunes:summary>\{\{ site.description | xml_escape \}\}</itunes:summary>\
-		<itunes:keywords>\{\{ site.keywords \}\}</itunes:keywords>\
-		<itunes:owner>\
-			<itunes:name>\{\{ site.author \}\}</itunes:name>\
-			<itunes:email>\{\{ site.email \}\}</itunes:email>\
-		</itunes:owner>\
-		<itunes:image href="\{\{ site.url \}\}/images/itunes.png" />\
-		<itunes:category text="Music" />\
-		<itunes:category text="Technology">\
-			<itunes:category text="Podcasting" />\
-		</itunes:category>\
-		<itunes:category text="Society &amp; Culture">\
-			<itunes:category text="Philosophy" />\
-		</itunes:category>\
-		<itunes:explicit>yes</itunes:explicit>\
-		\{% for post in site.posts %\}\
-			<item>\
-				<title>\{\{ post.title | xml_escape \}\}</title>\
-				<link>\{\{ site.url \}\}\{\{ post.url \}\}</link>\
-				<pubDate>\{\{ post.date | date_to_rfc822 \}\}</pubDate>\
-				<description>\{\{ post.excerpt | xml_escape \}\}</description>\
-				<guid isPermaLink="true">\{\{ site.url \}\}\{\{ post.url \}\}</guid>\
-				<enclosure url="http:\{\{ post.file \}\}" length="\{\{ post.length \}\}" type="audio/mp3"/>\
-				<itunes:author>\{\{ site.author \}\}</itunes:author>\
-				<itunes:subtitle>\{\{ site.title \}\}: \{\{ post.title \}\}</itunes:subtitle>\
-				<itunes:summary>\{\{ post.summary | xml_escape \}\}</itunes:summary>\
-				<itunes:duration>\{\{ post.duration \}\}</itunes:duration>\
-				<itunes:keywords>\{\{ post.keywords \}\}</itunes:keywords>\
-				<itunes:image href="\{\{ site.url \}\}/images/itunes.png" />\
-				<itunes:explicit>\{\{ post.explicit \}\}</itunes:explicit>\
-				<itunes:block>\{\{ post.block \}\}</itunes:block>\
-			</item>\
-		\{% endfor %\}\
-	</channel>\
-</rss>\
-}
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
+	<channel>
+		<atom:link href="{{ site.url | append: site.baseurl | append: '/podcast.rss' }}" rel="self" type="application/rss+xml" />
+		<title>{{ site.title }}</title>
+		<description>{{ site.description | xml_escape }}</description>
+		<link>{{ site.url | append: site.baseurl }}</link>
+		<language>{{ site.lang }}</language>
+		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+		<copyright>{{ site.launch_date | date: "%Y" }} {{ site.title }}</copyright>
+		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<image>
+			<link>{{ site.url | append: site.baseurl }}</link>
+			<url>{{ site.podcast-artwork | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}</url>
+			<title>{{ site.title }}</title>
+		</image>
+		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+		<itunes:author>{{ site.author }}</itunes:author>
+		<itunes:summary>{{ site.summary | xml_escape }}</itunes:summary>
+		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
+		<itunes:owner>
+			<itunes:name>{{ site.author }}</itunes:name>
+			<itunes:email>{{ site.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="{{ site.podcast-artwork | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}" />
+
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals" />
+		</itunes:category>
+		<itunes:category text="Government &amp; Organizations" />
+		<itunes:category text="Comedy" />
+		
+		<itunes:explicit>{{ site.explicit }}</itunes:explicit>
+		
+		<itunes:type>{{ site.type }}</itunes:type>÷
+
+		{% assign episodes = site.episodes | sort_by: date | reverse %}
+		{% for episode in episodes %}
+
+		<item>
+			<title>{{ episode.title | xml_escape }}</title>
+			<link>{{ site.url | append: site.baseurl | append: episode.url }}</link>
+			<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
+			<itunes:episodeType>{{ episode.type }}</itunes:episodeType>
+			{% if episode.type == "full" %}
+			<itunes:episode>{{ episode.episode }}</itunes:episode>
+			<itunes:season>{{ episode.season }}</itunes:season>
+			{% endif %}
+			<description>{{ episode.description | xml_escape }}</description>
+			<guid isPermaLink="true">{{ site.url | append: site.baseurl | append: episode.url }}</guid>
+			<enclosure url="{{ episode.file }}" length="{{ episode.length }}" type="{{ episode.file_type }}"/>
+			<itunes:author>{{ site.author }}</itunes:author>
+			<itunes:subtitle>{{ episode.subtitle | xml_escape }}</itunes:subtitle>
+			<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
+			<description></description>
+			<itunes:duration>{{ episode.duration }}</itunes:duration>
+			<itunes:keywords>{{ episode.keywords }}</itunes:keywords>
+			{% if episode.image %}
+			<itunes:image href="{{ episode.image | prepend: '/episode-images/' | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}" />
+			{% else %}
+			<itunes:image href="{{ '/podcast/itunes-3000.png' | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}" />
+			{% endif %}
+			<itunes:explicit>{{ episode.explicit }}</itunes:explicit>
+			<itunes:block>{{ episode.block }}</itunes:block>
+		</item>
+			
+		{% endfor %}
+
+	</channel>
+</rss>

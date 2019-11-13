@@ -1,0 +1,67 @@
+// Mixins
+
+// Breakpoints
+
+
+// BREAKPOINT ONLY 
+
+@mixin mobile {
+	@media 	only screen 
+			and (max-width: $tablet - 1px) {
+				@content;
+			}
+}
+
+@mixin tablet {
+	@media 	only screen 
+			and (min-width: $tablet)
+			and (max-width: $desktop - 1px) {
+				@content;
+			}
+}
+
+@mixin tablet-landscape {
+	@media 	only screen 
+			and (min-width: $tablet-landscape)
+			and (max-width: $desktop - 1px) {
+				@content;
+			}
+}
+
+
+@mixin desktop {
+	@media 	only screen 
+			and (min-width: $desktop) {
+				@content;
+			}
+}
+
+// AND UP
+
+@mixin mobile-up {
+	@media 	only screen 
+			and (min-width: $mobile) {
+				@content;
+			}
+}
+
+@mixin tablet-up {
+	@media 	only screen 
+			and (min-width: $tablet) {
+				@content;
+			}
+}
+
+@mixin tablet-down {
+	@media 	only screen 
+			and (max-width: $desktop - 1px) {
+				@content;
+			}
+}
+
+@mixin desktop-up {
+	@media 	only screen 
+			and (min-width: $desktop) {
+				@content;
+			}
+}

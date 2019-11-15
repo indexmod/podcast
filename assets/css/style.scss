@@ -1,0 +1,91 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+
+body {
+	max-width: auto;
+	margin: auto;
+	padding: 10%;
+	background: white;
+}
+
+.date {
+	font-family: 'Verdana', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: 900;
+	color: black;
+}
+p {
+	font-family: 'Verdana';
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: black;
+}
+
+h1 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 1.3em;
+	color: black;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Verdana';
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 1.5em;
+	color: black;
+}
+
+
+.author {
+	font-family: 'Verdana';
+	font-weight: 100;
+	color: green;
+}
+
+.translator {
+	font-family: 'Verdana';
+	font-weight: 100;
+	color: green;
+}
+
+.reader {
+	font-family: 'Verdana';
+	font-weight: 100;
+	color: green;
+}
+
+.dot {
+	font-family: 'Verdana';
+	font-weight: 900;
+	font-size: 30px;
+	color: lime;
+}
+
+
+a:link {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 100;
+}
+a:visited {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 100;
+}
+a:hover {
+	color: green;
+	text-decoration: none;
+	font-weight: 100;
+}
+a:active {
+	color: #4e80d8;
+	text-decoration: none;
+	font-weight: 100;
+}

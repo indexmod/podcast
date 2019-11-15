@@ -1,2 +1,0 @@
-# Department of Bad Ideas
-

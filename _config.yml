@@ -1,73 +1,41 @@
-# Site settings
+---
 
-title: "Индексмод"
-author: "John Peart"
+title: Метамем
+timezone: UTC
+description: by Indexmod
+url: https://metamem.cf
+
+show_rss: true
+show_sidebar: false
+show_downloads: false
+show_title: false
+show_description: false
+git_branch: master
+
+theme: jekyll-theme-minimal
+
+include: ['.htaccess']
 
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://metamem.cf"
+use_github_wiki: false
+custom_head: false
+custom_sidebar: false
+custom_footer: false
+
+
+media: '/images'
 
 # Podcast Feed Settings
 
-email:          "podcast@johnpe.art"
-subtitle: 		"The Department of Bad Ideas is a podcast and gameshow about policy, disconnected from reality."
-summary: 		"Саммари"
+email:          indexmod@ya.ru
+description:    "Test podcast engine"
+subtitle:       "Listen to me"
+lang:           RU
+author:         Andrei Dei
+copyright:      "&#x2117; &amp; &#xA9; 2015"
 
-keywords:       "comedy, personal blog, government, politics, bad ideas, podofbadideas, department of bad ideas, dept of bad ideas"
 
-explicit:       "no"
-type:           "serial" # 'serial' or 'episodic'
 
-lang:           "en"
-launch_date:	2019-01-01
-copyright:      "&#x2117; &amp; &#xA9; 2019"
-
-podcast-feed:			"https://podcast.johnpe.art/podofbadideas/podcast.rss"
-apple-podcasts-feed:	"https://pcr.apple.com/id1451459867"
-
-# Site settings
-
-# Images and assets
-image-path: "/assets/images"
-css-path: "/assets/styles"
-js-path: "/assets/scripts"
-
-# Artwork
-
-podcast-artwork: "/podcast/itunes-3000.png"
-social-media-image: "/site/social-media.png"
-
-touch: "/assets/images/site/touch.png"
-pinned: "/assets/images/site/pinned.png"
-pinned-colour: "grey"
-logo-favicon-small: "/assets/images/site/favicon-16x16.png"
-logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
-logo-favicon-large: "/assets/images/site/favicon-96x96.png"
-
-#Analytics
-google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
-disable-analytics: false # Switch to "false" to start GA logging
-google-analytics: "UA-27553664-7" # GA ID code
-
-# Plugins and build settings
-
-permalink: pretty
-markdown: kramdown
-future: false
-sass:
-    sass_dir: _sass
-    sourcemap: true
-
-collections:
-  episodes:
-    output: true
-    permalink: /episode/:path/
-    defaults:
-      values:
-        layout: episode
-
-plugins:
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-redirect-from
-- jekyll-paginate
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1

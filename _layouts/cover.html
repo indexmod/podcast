@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+{% include rss.html %}
+{% include meta-cover.html %}
+{% include favicon.html %}
+</head>
+<body>
+
+{{ content }}
+
+<p>{{ site.time | date: "%Y" }} © Indexmod</p>
+</body>
+</html>

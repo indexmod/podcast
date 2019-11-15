@@ -39,3 +39,17 @@ copyright:      "&#x2117; &amp; &#xA9; 2015"
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
+
+podcast_subtitle: Тест подкаст
+podcast_url: http://metamem.cf
+podcast_album_art: http://metamem.cf/logo.png
+podcast_title: Metamem
+podcast_owner: Indexmod
+podcast_email: indexmod@ya.ru
+podcast_category: LGBT
+podcast_subcategory_one: Flats for friends
+podcast_subcategory_two: Real estate
+podcast_explicit: "no"
+podcast_author: Indexmod & guests
+podcast_description: Описание подкаста
+podcast_summary: "Сводка"

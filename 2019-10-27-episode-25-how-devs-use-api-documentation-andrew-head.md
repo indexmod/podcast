@@ -26,12 +26,6 @@ hosts:
 - chrisward
 - jaredmorgs
 - tomjohnson
+layout: podcast
 
 ---
-
-## Links
-
-* [When Not to Comment: Questions and Tradeoffs with API Documentation for C++ Projects](https://andrewhead.info/assets/pdf/when-not-to-comment.pdf)
-* [Andrewhead.info](https://andrewhead.info/)
-* [Andrew Head GitHub](https://github.com/andrewhead)
-* [Codescoop](https://github.com/andrewhead/codescoop)

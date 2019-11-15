@@ -26,6 +26,6 @@ hosts:
 - chrisward
 - jaredmorgs
 - tomjohnson
-layout: podcast
+layout: default
 
 ---

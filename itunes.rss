@@ -16,7 +16,7 @@ layout: null
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="{{site.url}}/assets/img/wtdpodcastlogo.png"/>
+    <itunes:image href="{{site.url}}/cover-art.png"/>
 
     <itunes:subtitle>{{site.podcast_subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.podcast_summary}}</itunes:summary>
@@ -44,7 +44,7 @@ layout: null
             <itunes:subtitle>{{ ep.summary | strip_html | expand_urls: site.url | cdata_escape }}</itunes:subtitle>
             <itunes:summary>{{ ep.summary | expand_urls: site.url | cdata_escape }}</itunes:summary>
             <itunes:author>Write the Docs community</itunes:author>
-            <itunes:image href="{{site.url}}/assets/img/wtdpodcastlogo.png" />
+            <itunes:image href="{{site.url}}/cover-art.png" />
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
         </item>

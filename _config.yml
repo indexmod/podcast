@@ -24,6 +24,7 @@ custom_footer: false
 
 
 media: '/images'
+posts: '/_posts'
 
 # Podcast Feed Settings
 

@@ -4,6 +4,7 @@ title: Школа, являясь одним из главных институ�
 author: Разумная Е. В.
 article: Использование современных педагогических технологий на уроках биологии
 reader: Зейнал Гасанбеков
+published: true
 layout: default
 guid: shkola-i-avli-ai-as-odnim-iz-glavnykh
 keywords:
@@ -12,7 +13,7 @@ categories:
 date: 2019-11-20
 tags:
 image: https://metamem.cf/cover-art.png
-podcast_link:
+podcast_link: https://metamem.cf
 podcast_file_size: 31.5 MB
 podcast_duration: "56:14"
 podcast_length: 30487266

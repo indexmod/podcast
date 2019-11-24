@@ -36,22 +36,22 @@
 			<itunes:category text="Philosophy" />
 		</itunes:category>
 		<itunes:explicit>no</itunes:explicit>
-		{% for post in site.posts %}
+		{% for post in site.pages %}
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<description>{{ post.excerpt | xml_escape }}</description>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+				<title>{{ page.title | xml_escape }}</title>
+				<link>{{ site.url }}{{ page.url }}</link>
+				<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+				<description>{{ page.excerpt | xml_escape }}</description>
+				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+				<enclosure url="http:{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>
 				<itunes:author>{{ site.author }}</itunes:author>
 				<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-				<itunes:duration>{{ post.duration }}</itunes:duration>
-				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
+				<itunes:summary>{{ page.summary | xml_escape }}</itunes:summary>
+				<itunes:duration>{{ page.duration }}</itunes:duration>
+				<itunes:keywords>{{ page.keywords }}</itunes:keywords>
 				<itunes:image href="{{ site.url }}cover-art.png" />
-				<itunes:explicit>{{ post.explicit }}</itunes:explicit>
-				<itunes:block>{{ post.block }}</itunes:block>
+				<itunes:explicit>{{ page.explicit }}</itunes:explicit>
+				<itunes:block>{{ page.block }}</itunes:block>
 			</item>
 		{% endfor %}
 	</channel>

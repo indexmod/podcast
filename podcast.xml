@@ -38,9 +38,9 @@
 		<itunes:explicit>no</itunes:explicit>
 		{% for post in site.pages %}
 			<item>
-				<title>{{ page.title | xml_escape }}</title>
+				<title>{{ page.title }}</title>
 				<link>{{ site.url }}{{ page.url }}</link>
-				<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ page.date }}</pubDate>
 				<description>{{ page.excerpt | xml_escape }}</description>
 				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
 				<enclosure url="{{ site.url }}/{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>

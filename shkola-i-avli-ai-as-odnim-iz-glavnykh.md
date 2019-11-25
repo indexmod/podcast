@@ -5,7 +5,7 @@ author: Разумная Е. В.
 article: Использование современных педагогических технологий на уроках биологии
 reader: Зейнал Гасанбеков
 layout: default
-guid: shkola-i-avli-ai-as-odnim-iz-glavnykh
+guid: 00000001
 keywords:
 global_recommendation: true
 categories:
@@ -13,9 +13,10 @@ date: 2019-11-20
 tags:
 image: https://metamem.cf/cover-art.png
 podcast_link:
-podcast_file_size: 31.5 MB
-podcast_duration: "56:14"
-podcast_length: 30487266
+page.file: shkola-i-avli-ai-as-odnim-iz-glavnykh.mp4
+page_file_size: 31.5 MB
+page_duration: "56:14"
+page_length: 30487266
 youtube_id:
 summary: "Episode 1"
 bitlink:
